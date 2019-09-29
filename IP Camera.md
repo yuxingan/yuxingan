@@ -1,3 +1,4 @@
+
 # 关于NALU使用RTP包进行发送可能的类型有：
 
 ## 单一 NAL 单元模式
@@ -10,9 +11,12 @@ NALU 头仅一个字节，其后都是 NALU 单元内容。打包时去除 "00 0
 封装成 RTP 包将如下：
 [ RTPHeader ] [ 67 42 A0 1E 23 56 0E 2F… ]
 
+代码：
+[基于RTP的H264视频数据打包解包类](https://blog.csdn.net/gokartscomeon/article/details/44408295)
 
+[从零开始写一个RTSP服务器](https://blog.csdn.net/weixin_42462202/article/details/98986535)
 
  [^1]:**MTU（Maximum Transmission Unit，MTU）**：最大传输单元，是指一种通信协议的某一层上面所能通过的最大数据报大小（以字节为单位）。最大传输单元这个参数通常与通信接口有关（网络接口卡、串口等）。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUwODU1OTYzXX0=
+eyJoaXN0b3J5IjpbMTczMDUxOTIzMl19
 -->
